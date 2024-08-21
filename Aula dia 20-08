@@ -1,0 +1,27 @@
+Aula dada dia 20-08
+Pelo Professor Pablo Ramon
+
+buscar sobre web 1.0
+Buscar sobre Técnica de cluster
+
+idealizador de machine learning: Arthur Samuel
+*Tipos de machine learning*
+
+1 Supervisionado:
+O algoritmo é treinado com um conjunto de dados rotulados, ou seja, onde cada entrada está associada a saidas.
+uso de dados rotulados para treino.
+
+2 Não supervisionado:
+O algoritmo é treinado com um conjunto de dados não rotulados, ou seja, dados ondes saidas não são fornecidas.
+descobrindo padrões ocultos
+
+3 Pelo reforço:
+O aprendizado por reforço (RL) é uma técnica de machine learning (ML) que treina o software para tomar decisões em busca dos melhores resultados.
+Ele imita o processo de aprendizado por tentativa e erro que os seres humanos usam para atingir seus objetivos.
+apende com recompensas
+
+disrupção:
+interrupção do curso normal de um processo.
+
+Dados binarios:
+são informações representadas em formato binário, ou seja, utilizando apenas dois valores: 0 e 1.
