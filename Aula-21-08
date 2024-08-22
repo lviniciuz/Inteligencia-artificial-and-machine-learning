@@ -1,0 +1,63 @@
+⭐Aula com Prof. Tânia
+
+*Revisar variáveis*
+quantitativa
+qualitativa
+_____________________________________________
+⭐Reconhecimentos de Padrão:
+
+o que é Reconhecimentos de Padrão?
+
+O reconhecimento de padrões é a capacidade de indentificar regularidades e estruturas de dados.
+Isso pode ocorrer de forma visual, auditiva, ou em outros formatos
+
+⭐Tipos de Padrões:
+Padroes Visuais:
+Relacionam-se com a detecção de características visuais em imagem ou videos, como por exemplo o reconhecimento facial.
+
+Padrões Auditivos:
+Envolde a indentificação de sons, como reconhecer a voz de uma pessoa em uma gravação detectar um sim específico em um ambiente barulhento.
+
+Padrões Textuais:
+Inclui o reconhecimento de padrões em texto, como a indentificação de temas recorrentes em documentos, analises de sentimentos em postagem de mídia social.
+
+Padrões Comportamentais:
+Refere-se a identificação de padrões de comportamento humano,
+como prever ações futuras com base em dados de comportamentos passados,
+muito utilizado em marketing digital e análise de dados.
+_____________________________________________
+⭐Pocesso de reconhecimento de padrões:
+
+Aquisição de dados:
+Primeiramente, os dados precisam ser coletados, Isso pode ser feito por meio de sensores, cameras, microfones e outras fontes.
+
+Pré-Processamento:
+Os dados são então preparados para análise, o que pode incluir remoção de ruídos, normalização e extração de características relevantes.
+
+Detecção de Padrões:
+Aqui, são aplicados algoritmos que buscam indentificar padrões específicos dentro dos dados processados.
+esses algoritmos pode ser simples ou complexos.
+
+Classifição:
+Uma vez que os padrões são indentificados e detectado, eles são classificados em diferentes categorias ou classes,
+por exemplo a maquina pode identificar se é um "Gato" ou "Não gato"
+
+Pós-Processamento:
+Finalmente, os resultados são analisados e interpretados, podendo ser usados para tomar decisões ou realizar previsões.
+_____________________________________________
+⭐Relação com a Aprendizagem de máquina:
+
+Interdependência:
+O reconhecimendo de padrões é uma das principais funções da aprendizagem de máquina, Modelos de aprendizagem de máquina são
+treinados para identificar padrões em grandes conjuntos de dados e, com base nesses padrões, fazer previsões ou tomar decisões automatizadas.
+
+Algoritmos:
+Alguns dos algoritmos mais utilizados para reconhecimento de padrões na aprendizagem de máquina incluem redes neurais,
+k-means clustering, e Support Vector Machines (SVM).
+_____________________________________________
+
+⭐(Dados brutos)  -> (algoritmo) + (Modelo de agrupamento) = resultado
+_____________________________________________
+
+⭐Dados -> Padrão -> Função
+_____________________________________________
