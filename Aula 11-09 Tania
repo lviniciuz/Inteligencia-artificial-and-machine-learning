@@ -1,13 +1,16 @@
-Definir uma base de dados que vamos trabalhar.
+⭐Definir uma base de dados que vamos trabalhar.
 
-minha base de dados: 
+⭐ minha base de dados: 
 (OBS: Mais de 16.000 filmes de 1910 a 2024 (Metacritic))
 
-https://www.kaggle.com/datasets/kashifsahil/16000-movies-1910-2024-metacritic
+⭐ https://www.kaggle.com/datasets/kashifsahil/16000-movies-1910-2024-metacritic
+
+(estatistica descritiva
+analise descritiva)
 
 ---------------------------------------------------------------------------------
 
-Este conjunto de dados contém informações detalhadas sobre mais de 16.000 filmes lançados entre 1910 e 2024 ,
+⭐ Este conjunto de dados contém informações detalhadas sobre mais de 16.000 filmes lançados entre 1910 e 2024 ,
 juntamente com suas classificações correspondentes no Metacritic. O conjunto de dados é uma 
 coleção extensa para entusiastas de cinema, pesquisadores e cientistas de dados interessados ​​em explorar tendências
 no cinema ao longo de mais de um século.
