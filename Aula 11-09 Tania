@@ -1,0 +1,35 @@
+Definir uma base de dados que vamos trabalhar.
+
+minha base de dados: 
+(OBS: Mais de 16.000 filmes de 1910 a 2024 (Metacritic))
+
+https://www.kaggle.com/datasets/kashifsahil/16000-movies-1910-2024-metacritic
+
+---------------------------------------------------------------------------------
+
+Este conjunto de dados contém informações detalhadas sobre mais de 16.000 filmes lançados entre 1910 e 2024 ,
+juntamente com suas classificações correspondentes no Metacritic. O conjunto de dados é uma 
+coleção extensa para entusiastas de cinema, pesquisadores e cientistas de dados interessados ​​em explorar tendências
+no cinema ao longo de mais de um século.
+
+Principais características:
+Título: O nome do filme.
+Data de lançamento: A data oficial de lançamento do filme.
+Descrição: Uma breve sinopse ou visão geral crítica do filme.
+Classificação: A pontuação média do Metacritic, fornecendo uma indicação da recepção crítica do filme.
+Número de pessoas votadas: o número de indivíduos que avaliaram o filme no Metacritic.
+Dirigido por: O(s) diretor(es) do filme.
+Escrito por: O(s) roteirista(s) responsável(eis) pelo roteiro do filme.
+Duração: O tempo de execução do filme.
+Gêneros: O(s) gênero(s) em que o filme se enquadra, como Drama, Comédia ou Ação.
+Por que esse conjunto de dados?
+Este conjunto de dados é ideal para quem deseja analisar:
+
+Tendências nas classificações de filmes ao longo do tempo.
+Popularidade e evolução do gênero ao longo das décadas.
+Correlação entre diretores/roteiristas e sucesso de crítica.
+Impacto da duração nas classificações.
+Tendências globais do cinema com diversos gêneros e cineastas.
+Quer você esteja conduzindo uma análise de sentimento, estudando a evolução do cinema ou construindo um sistema de recomendação,
+este conjunto de dados fornece uma base rica para vários projetos.
+
