@@ -1,0 +1,98 @@
+(Feito no Kaggle)
+
+Filmes 1910 até 2024
+
+Variáveis:
+    
+Título: O nome do filme.
+Data de Lançamento: A data oficial de lançamento do filme.
+Descrição: Uma breve sinopse ou visão crítica do filme.
+Classificação: A média de pontuação no Metacritic, indicando a recepção crítica do filme.
+Número de Pessoas que Votaram: O número de indivíduos que classificaram o filme no Metacritic.
+Dirigido por: O(s) diretor(es) do filme.
+Escrito por: O(s) roteirista(s) responsável(eis) pelo roteiro do filme.
+Duração: O tempo de exibição do filme.
+Gêneros: Os gêneros aos quais o filme pertence, como Drama, Comédia ou Ação.
+_____________________________________________________________________________________
+
+Estrutura descritiva:
+
+Título do Filme: O nome do filme.
+
+Data de Lançamento: A data oficial de lançamento do filme, como dia/mês/ano.
+
+Descrição: Uma breve sinopse do filme ou uma visão crítica que destaca os principais pontos da trama e a experiência geral. Pode incluir informações sobre o enredo, os personagens principais e o impacto emocional ou intelectual que o filme oferece.
+
+Classificação: Média de pontuação no Metacritic: A pontuação atribuída ao filme com base nas críticas coletadas no Metacritic, de 0 a 100.
+
+Número de Pessoas que Votaram: O número total de usuários que classificaram o filme no Metacritic.
+
+Dirigido por: Nome(s) do(s) diretor(es) responsável(eis) pela direção do filme.
+
+Escrito por: Nome(s) do(s) roteirista(s) responsável(eis) pela criação do roteiro.
+
+Duração: A duração do filme em horas e minutos (por exemplo, 2 horas e 15 minutos).
+
+Gêneros: Uma lista dos gêneros que descrevem o filme, como Drama, Comédia, Ação, Ficção Científica, etc.
+
+code:
+
+import pandas as pd
+import numpy as np
+
+import warnings
+warnings.filterwarnings('always')
+warnings.filterwarnings('ignore')
+
+insurance=pd.read_csv('../input/insurance1/insurance.csv')
+
+insurance.describe()
+
+insurance.head()
+
+insurance.tail()
+
+insurance.shape
+
+insurance.dtypes
+
+insurance['region'].value_counts()
+
+from sklearn.preprocessing import LabelEncoder
+
+from sklearn import preprocessing
+le = preprocessing.LabelEncoder()
+
+le.fit(["southeast", "southwest", "northwest", "northeast"])
+LabelEncoder()
+
+insurance.head()
+
+insurance.isna().sum()
+
+catColumns = ['sex', 'smoker', 'region']
+insurance_dum = pd.get_dummies(insurance, columns = catColumns, drop_first=True)
+insurance_dum.head()
+
+X = insurance_dum[['age','bmi', 'smoker_yes']]
+y = insurance_dum['charges']
+
+from sklearn.linear_model import LinearRegression
+
+linreg = LinearRegression()
+
+linreg.fit(X,y) #membuat model regresi untuk x dan y
+linreg.score(X,y) #skor regresi linear atau Nilai R square
+
+linreg.score(X,y)*100
+
+linreg.coef_
+
+linreg.intercept_
+
+def calc_insurance(age, bmi, smoking):
+ y = ((age*linreg.coef_[0]) + (bmi*linreg.coef_[1]) + (smoking*linreg.coef_[2]) - linreg.intercept_)
+ return y
+
+ print(calc_insurance(36, 24, 0))
+ 
