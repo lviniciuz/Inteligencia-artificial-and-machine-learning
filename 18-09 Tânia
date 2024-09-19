@@ -44,17 +44,17 @@ import warnings
 warnings.filterwarnings('always')
 warnings.filterwarnings('ignore')
 
-insurance=pd.read_csv('../input/insurance1/insurance.csv')
+filmess=pd.read_csv('../input/filmess/16k_Movies.csv')
 
-insurance.describe()
+filmess.describe()
 
-insurance.head()
+filmess.head()
 
-insurance.tail()
+filmess.tail()
 
-insurance.shape
+filmess.shape
 
-insurance.dtypes
+filmess.dtypes
 
 insurance['region'].value_counts()
 
