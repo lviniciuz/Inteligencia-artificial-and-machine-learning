@@ -1,0 +1,14 @@
+Sistema RGB de cores:⭐
+Como o computador gerencia as cores
+
+compreender o sistema RGB
+Entende a representação de cores Hexadécimal
+
+sistemas de cores:
+Rgb-Modelo aditivo de cores
+CmykModelo subtrativo de cores
+
+site para palheta de color:Modelo aditivo de cores:⭐
+
+Adobe color
+coolors
