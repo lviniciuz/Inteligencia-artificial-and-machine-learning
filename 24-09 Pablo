@@ -1,0 +1,26 @@
+Ia generativa:
+IA generativa é um tipo de inteligência artificial que cria conteúdo novo e original,
+como texto, imagens, música e até vídeo. Ela utiliza modelos complexos para aprender padrões a partir de grandes conjuntos de dados e,
+em seguida, gera novas saídas baseadas nesses padrões. Por exemplo, uma IA generativa pode escrever uma história,
+compor uma música ou criar uma imagem que nunca foi vista antes. É uma ferramenta poderosa que está sendo usada em diversas áreas, como arte, entretenimento, marketing e design.
+
+criação de conteudo originais:
+A IA generativa é capaz de gerar novos exemplos que parecem autênticos utiLizando, utilizando padrões aprendidos dos dados de treinamento. 
+
+Aprendizado de padrões complexos:
+Ela identifica e replica padrões sutis presentes nos dados originais.
+
+modelos avançados:
+ utiliza de Redes neurais generativas adversariais (GANs) e modelos transformadores (TRANSFORMES) para criar conteúdo de alta qualidade.
+ 
+Versatilidade em aplicações:
+É aplicada em diversas áreas, como arte, medicina, entreterimento e finanças, demonstrando um potencial revolucionario.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Modelos generativos vs Discriminativos
+
+Generativos: 
+É projetada para criar novos dados que poderiam ter sido originados a partir da mesma distribuição dos dados de treinamento
+
+Discriminativos:
+Se concentram na classificação e distinção entre diferentes tipos de dados (por exemplo, identificar se uma imagem contém um gato ou um cachorro).
+
