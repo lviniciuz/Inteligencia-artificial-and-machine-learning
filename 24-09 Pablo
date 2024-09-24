@@ -23,4 +23,11 @@ Generativos:
 
 Discriminativos:
 Se concentram na classificação e distinção entre diferentes tipos de dados (por exemplo, identificar se uma imagem contém um gato ou um cachorro).
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Modelos Probabiísticos
 
++ Cadeia de Markov
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generative Adversarial Networks
++ Introduziadas em 2014 por Ian Goodfellow
++ Conceito de gerador
